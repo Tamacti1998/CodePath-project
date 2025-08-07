@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="" viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shuttle Flow</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/Users/alhassanawal/Desktop/icons8-car-100.png" type="image">
+</head>
+
+<body>
+    <div class="nav">
+        <div class="nav-left">
+            <p>ShuttleFlow</p>
+            <button id="theme-button">Toggle</button>
+            <button id="reduce-motion">Reduce Motion</button>
+        </div>
+        <div class="nav-right">
+            <a href="#home" id="a1">Home</a>
+            <a href="#services" id="a2">Services</a>
+            <a href="#contact" id="a3">Contact</a>
+            <a href="#join" id="a4">Join</a>
+        </div>
+    </div>
+    <div class="main">
+        <h1 id="home">Campus Life Connected</h1>
+        <h2>About the Event</h2>
+        <p id="home">The purpose of the ShuttleFlow website is to serve as a shuttle
+            service booking platform for college and university students based on the school's existing shuttle system -
+            essentially an Uber-like service, but specifically focused on providing transportation to and from campus,
+            reducing waiting time, and improving efficiency.
+        </p>
+        <h3>Perfect for Student Life</h3>
+        <div class="btns">
+            <button class="log"><a href="#">Log In</a></button>
+            <button class="log" id="join"><a href="#">Sign Up</a></button>
+            <button class="btn-primary">Book Your Ride</button>
+            <button class="btn-secondary" id="services">Learn More</button>
+        </div>
+    </div>
+    <div class="section">
+        <div class="parent">
+            <div class="feature-grid">
+                <img src="croutes.jpg" alt="Stops and destinations around campus">
+                <p id="c-r">Campus Routes</p>
+                <p>Dedicated routes to campus, dorms, dining halls, and popular student hangouts. We know where students
+                    need to go and when.
+                </p>
+            </div>
+            <div class="feature-grid">
+                <img src="gride.webp" alt="together with common destination">
+                <p id="c-r">Group Ride</p>
+                <p>Easily book rides for your whole friend group. Automatic cost splitting and Venmo integration.
+                    Perfect for parties, study groups, and campus events.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <ul>
+            <li>Terms of Usage</li>
+            <li>Privacy Policy</li>
+            <li>&copy All Rights Reserved</li>
+            <li id="contact">(802) 901 777</li>
+        </ul>
+    </div>
+    <div class="rsvp">
+        <form>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter your name">
+            </div>
+            <div>
+                <label for="pickup-loc">Pickup Location</label>
+                <input type="text" id="pickup-loc" placeholder="Enter pickup address">
+            </div>
+            <div>
+                <label for="destination">Destination</label>
+                <input type="text" id="destination" placeholder="Where to">
+            </div>
+            <div>
+                <label for="group-size">Email</label>
+                <input type="text" id="email">
+            </div>
+            <div>
+                <label for="dTime">Depature Time</label>
+                <input type="time" id="dTime">
+            </div>
+            <div>
+                <button type="button">Book</button>
+            </div>
+        </form>
+        <div>
+            <p id="vp">The ride-finding form is a clean, intuitive interface built to help users quickly discover
+                available rides in their area. At its core are clearly labeled input fields where users enter their
+                pickup location, destination, and desired departure time. Once submitted, the form returns a list of
+                matching rides and driver details. This form ensures a fast, hassle-free experience for users
+                looking to
+                connect with nearby drivers and get moving efficiently.
+            </p>
+        </div>
+        <div class="rsvp-participants">
+            <p>✅ Ride booked by Esther at Sunrise Hall</p>
+            <p>✅ Ride booked by Anas at Town Center</p>
+            <p>✅ Ride booked by Chris at Founders Hall</p>
+        </div>
+    </div>
+    <p id="rsvp-count">🎉 3 Students booked a ride</p>
+
+
+    <div id="success-modal" class="modal">
+        <div class="modal-container">
+            <div id="modal-item1">
+                <p>✅ Successfully Booked</p>
+                <!-- Text element here -->
+            </div>
+            <div id="modal-item">
+                <img src="anime-cartoon.webp" id="modal-image">
+                <!-- Image element here -->
+            </div>
+            <button id="modal-btn">Close</button>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
